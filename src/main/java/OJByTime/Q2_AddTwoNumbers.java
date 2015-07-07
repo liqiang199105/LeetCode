@@ -9,6 +9,12 @@ import com.sun.org.apache.regexp.internal.recompile;
  * Output: 7 -> 0 -> 8
  */
 public class Q2_AddTwoNumbers {
+    //Definition for singly-linked  list.
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
     public static void main(String []args){
         // Input
         ListNode l1 = new ListNode(3);
@@ -61,9 +67,4 @@ public class Q2_AddTwoNumbers {
     }
 }
 
-//Definition for singly-linked  list.
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
+
